@@ -17,16 +17,18 @@ public class FigurC_mitSchleife extends PApplet
     @Override
     public void settings()
     {
-        size(890,590); // Festlegen der Fenstergröße
+        size(500,1000); // Festlegen der Fenstergröße
     }        
 
     public void zeichneBildC() {
-        for (int i=0; i<5; i++) {
-           rect(50+i*160, 50+i*100, 150, 100);
-           
-            
-   
-        }    
+       rect(50, 50, 400, 400);
+        for (int i=0; i<3; i++) {
+           circle(250, 250, 350-i*100);
+        }   
+        circle(250, 750, 400);
+        for (int i=0; i<3; i++) {
+           rect(125+i*50, 625+i*50, 250-i*100, 250-i*100);
+        }
     }
 
     /**
