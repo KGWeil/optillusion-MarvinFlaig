@@ -31,11 +31,7 @@ public class BildC extends PApplet
         }
     }
 
-    /**
-     * Die setup() Methode wird einmal aufgerufen, wenn das Programm startet.
-     * Hier werden Einstellungen wie die Hintergrundfarbe vorgenommen
-     * und Medien wie Bilder und Schriftarten geladen.
-     */
+ 
     @Override
     public void setup()
     {
