@@ -33,7 +33,7 @@ public class Kaffeehaus extends PApplet
     
     public void parallelen(){
         stroke(125);
-        for (int i=0; i<=9; i++){
+        for (int i=0; i<10; i++){
             line(0,5+i*s, 640, 5+i*s);
         }
     }
@@ -41,11 +41,11 @@ public class Kaffeehaus extends PApplet
     
     public void zeichneAlleQuadrate(){
         fill(0);
-        for (int j=0; j<=8; j++){
-            for (int i=0; i<=7; i++){
+        for (int j=0; j<9; j++){
+            for (int i=0; i<8; i++){
                 rect(abstaende[j]+2*s*i, 5+j*s, s, s);
             }
-        }
+        } 
     }
     
  
